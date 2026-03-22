@@ -151,7 +151,7 @@ ol {
   padding: 1px;
 }
 
-.search-form__checkbox:checked + .search-form__pseudo-checkbox::after {
+.search-form__checkbox:checked+.search-form__pseudo-checkbox::after {
   content: "";
   display: block;
   background-color: #FFFFFF;
@@ -215,7 +215,7 @@ ol {
 
 .content__card-link:hover {
   text-decoration: underline;
-  text-underline-offset: 1,9px;
+  text-underline-offset: 1, 9px;
 }
 
 .content__card-link:focus {
@@ -245,7 +245,7 @@ ol {
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
-  margin-bottom: 6px; 
+  margin-bottom: 6px;
 }
 
 .content__video-card-description {
@@ -253,8 +253,8 @@ ol {
   font-weight: 400;
   letter-spacing: 0;
   display: -webkit-box;
-    -webkit-line-clamp: 4;
-    -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
   overflow: hidden;
 }
 
