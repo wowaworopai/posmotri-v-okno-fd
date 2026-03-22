@@ -9,6 +9,9 @@ html {
 }
 
 .page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   inline-size: 1200px;
   block-size: 100%;
   margin: auto;
@@ -48,12 +51,6 @@ ol {
 
 .custom-scrollbar::-webkit-scrollbar-thumb {
   background-color: #D9D9D9;
-}
-
-.page {
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .content {
@@ -186,9 +183,6 @@ ol {
 .content__list-container {
   height: 298px;
   overflow-block: scroll;
-}
-
-.content__list-container {
   display: flex;
   flex-direction: column;
   gap: 30px;
@@ -244,7 +238,6 @@ ol {
 }
 
 .content__video-card-title {
-  margin-bottom: 6px; 
   font-family: Oswald;
   font-size: 30px;
   line-height: 100%;
@@ -252,14 +245,15 @@ ol {
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
+  margin-bottom: 6px; 
 }
 
 .content__video-card-description {
+  line-height: 16.2px;
   font-weight: 400;
-  line-height: 16.2px; 
   letter-spacing: 0;
   display: -webkit-box;
-    -webkit-line-clamp: 4; 
+    -webkit-line-clamp: 4;
     -webkit-box-orient: vertical;
   overflow: hidden;
 }
