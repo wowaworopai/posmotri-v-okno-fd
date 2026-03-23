@@ -1,1 +1,1 @@
-https://github.com/wowaworopai/posmotri-v-okno-fd#
+https://github.com/wowaworopai/posmotri-v-okno-fd
