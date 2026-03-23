@@ -131,7 +131,7 @@ ol {
   border-style: solid;
   border-color: #FFFFFF;
   width: 225px;
-  margin-top: 7px;
+  margin-top: 6px;
   cursor: pointer
 }
 
@@ -143,7 +143,7 @@ ol {
   display: flex;
   gap: 15px;
   width: fit-content;
-  margin-top: 7px;
+  margin-top: 6px;
 }
 
 .search-form__pseudo-checkbox {
